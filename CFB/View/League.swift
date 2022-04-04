@@ -91,6 +91,7 @@ struct League: View {
                     }
                  .cornerRadius(10)
                  .padding()
+                 .shadow(color: Color.black, radius: 10, x: 5, y: 5)
                  .offset(y: 150)
                 }
             }
