@@ -11,14 +11,33 @@
 		5269600927F9A0D2007F8D3C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269600827F9A0D2007F8D3C /* ContentView.swift */; };
 		5269600B27F9A0D3007F8D3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5269600A27F9A0D3007F8D3C /* Assets.xcassets */; };
 		5269600E27F9A0D3007F8D3C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5269600D27F9A0D3007F8D3C /* Preview Assets.xcassets */; };
+		5269601C27FA6192007F8D3C /* Color-Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269601B27FA6192007F8D3C /* Color-Themes.swift */; };
+		5269601F27FA62B2007F8D3C /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269601E27FA62B2007F8D3C /* Dashboard.swift */; };
+		5269602227FA6702007F8D3C /* NFLLeagueDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5269602027FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodeld */; };
+		5269602427FA75D3007F8D3C /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269602327FA75D3007F8D3C /* News.swift */; };
+		5269602627FA75F1007F8D3C /* League.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269602527FA75F1007F8D3C /* League.swift */; };
+		5269602827FA761C007F8D3C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269602727FA761C007F8D3C /* Options.swift */; };
+		5269602B27FA9D36007F8D3C /* Oswald.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5269602A27FA9D36007F8D3C /* Oswald.ttf */; };
+		5269602E27FAA4FA007F8D3C /* Alumni.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5269602D27FAA4FA007F8D3C /* Alumni.ttf */; };
+		5269603027FAA660007F8D3C /* AlumniSansInlineOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5269602F27FAA660007F8D3C /* AlumniSansInlineOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5269600327F9A0D2007F8D3C /* CFB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5269600327F9A0D2007F8D3C /* NFLLeagueFantasy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFLLeagueFantasy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5269600627F9A0D2007F8D3C /* CFBApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CFBApp.swift; sourceTree = "<group>"; };
 		5269600827F9A0D2007F8D3C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5269600A27F9A0D3007F8D3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5269600D27F9A0D3007F8D3C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5269601B27FA6192007F8D3C /* Color-Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Themes.swift"; sourceTree = "<group>"; };
+		5269601E27FA62B2007F8D3C /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		5269602127FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NFLLeagueDataModel.xcdatamodel; sourceTree = "<group>"; };
+		5269602327FA75D3007F8D3C /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5269602527FA75F1007F8D3C /* League.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = League.swift; sourceTree = "<group>"; };
+		5269602727FA761C007F8D3C /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		5269602A27FA9D36007F8D3C /* Oswald.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oswald.ttf; sourceTree = "<group>"; };
+		5269602C27FA9D62007F8D3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5269602D27FAA4FA007F8D3C /* Alumni.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Alumni.ttf; sourceTree = "<group>"; };
+		5269602F27FAA660007F8D3C /* AlumniSansInlineOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlumniSansInlineOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +62,7 @@
 		5269600427F9A0D2007F8D3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5269600327F9A0D2007F8D3C /* CFB.app */,
+				5269600327F9A0D2007F8D3C /* NFLLeagueFantasy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +70,15 @@
 		5269600527F9A0D2007F8D3C /* CFB */ = {
 			isa = PBXGroup;
 			children = (
+				5269602927FA9D1D007F8D3C /* Fonts */,
+				5269601D27FA628B007F8D3C /* View */,
+				5269601A27F9B151007F8D3C /* Data */,
+				5269601927F9B10D007F8D3C /* Model */,
+				5269601627F9AB3C007F8D3C /* Utilities */,
 				5269600627F9A0D2007F8D3C /* CFBApp.swift */,
 				5269600827F9A0D2007F8D3C /* ContentView.swift */,
 				5269600A27F9A0D3007F8D3C /* Assets.xcassets */,
+				5269602C27FA9D62007F8D3C /* Info.plist */,
 				5269600C27F9A0D3007F8D3C /* Preview Content */,
 			);
 			path = CFB;
@@ -65,6 +90,50 @@
 				5269600D27F9A0D3007F8D3C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5269601627F9AB3C007F8D3C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5269601B27FA6192007F8D3C /* Color-Themes.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		5269601927F9B10D007F8D3C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5269601A27F9B151007F8D3C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5269602027FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodeld */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5269601D27FA628B007F8D3C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5269601E27FA62B2007F8D3C /* Dashboard.swift */,
+				5269602327FA75D3007F8D3C /* News.swift */,
+				5269602527FA75F1007F8D3C /* League.swift */,
+				5269602727FA761C007F8D3C /* Options.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5269602927FA9D1D007F8D3C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				5269602F27FAA660007F8D3C /* AlumniSansInlineOne-Regular.ttf */,
+				5269602D27FAA4FA007F8D3C /* Alumni.ttf */,
+				5269602A27FA9D36007F8D3C /* Oswald.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +153,7 @@
 			);
 			name = CFB;
 			productName = CFB;
-			productReference = 5269600327F9A0D2007F8D3C /* CFB.app */;
+			productReference = 5269600327F9A0D2007F8D3C /* NFLLeagueFantasy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,6 +194,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5269603027FAA660007F8D3C /* AlumniSansInlineOne-Regular.ttf in Resources */,
+				5269602E27FAA4FA007F8D3C /* Alumni.ttf in Resources */,
+				5269602B27FA9D36007F8D3C /* Oswald.ttf in Resources */,
 				5269600E27F9A0D3007F8D3C /* Preview Assets.xcassets in Resources */,
 				5269600B27F9A0D3007F8D3C /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5269602627FA75F1007F8D3C /* League.swift in Sources */,
+				5269602427FA75D3007F8D3C /* News.swift in Sources */,
 				5269600927F9A0D2007F8D3C /* ContentView.swift in Sources */,
+				5269602227FA6702007F8D3C /* NFLLeagueDataModel.xcdatamodeld in Sources */,
+				5269602827FA761C007F8D3C /* Options.swift in Sources */,
 				5269600727F9A0D2007F8D3C /* CFBApp.swift in Sources */,
+				5269601F27FA62B2007F8D3C /* Dashboard.swift in Sources */,
+				5269601C27FA6192007F8D3C /* Color-Themes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +348,8 @@
 				DEVELOPMENT_TEAM = F94T4F28AP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CFB/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CFB;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -281,7 +361,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stradtkt.CFB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NFLLeagueFantasy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -299,6 +379,8 @@
 				DEVELOPMENT_TEAM = F94T4F28AP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CFB/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CFB;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -310,7 +392,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.stradtkt.CFB;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = NFLLeagueFantasy;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,6 +421,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5269602027FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5269602127FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodel */,
+			);
+			currentVersion = 5269602127FA6701007F8D3C /* NFLLeagueDataModel.xcdatamodel */;
+			path = NFLLeagueDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 52695FFB27F9A0D2007F8D3C /* Project object */;
 }
